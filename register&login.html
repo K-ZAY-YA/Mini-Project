@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // Register System
+        var username = window.prompt("Name: ")
+        var password = window.prompt("Enter Password: ")
+        var com_password = window.prompt("Confirm_password: ")
+
+        if (password === com_password) {
+            window.alert("Register Successiful")
+        }
+        else {
+            window.alert("Please ! Enter the same Password")
+        }
+        // login system
+
+        window.alert("Login System")
+        var login_name = window.prompt("Enter login name: ")
+        while(password != login_password){
+            var login_password = window.prompt("Enter password or Press 'Y' to exit the program")
+            if (login_password == password){
+                window.alert("Login success!")
+            }
+            else if (login_password === "y"){
+                window.alert("Exit the program")
+                break
+            }
+
+        }
+    </script>
+</body>
+</html>
